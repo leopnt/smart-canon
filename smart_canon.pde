@@ -12,9 +12,9 @@ void setup() {
 void draw() {
   background(220);
   
-  textSize(32);
-  fill(0, 0, 0);
-  text("Generation: ", p.generation, 10, 30); 
+  textSize(16);
+  fill(50, 50, 50);
+  text("Generation: " + p.generation, 10, 30);
   
   // draw target
   push();
